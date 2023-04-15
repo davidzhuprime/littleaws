@@ -1,0 +1,9 @@
+version: 1
+services:
+  app:
+    command:
+      - java
+      - -jar
+      - target/littlehero-0.0.1-SNAPSHOT.jar
+    environment:
+      SPRING_PROFILES_ACTIVE: production
